@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader img {
+  width: 200px;
+}
+
+.preloader {
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+.preloader.hide {
+  
+  display: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #161616;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(62, 62, 62);
+    border-radius: 5px;
+  }
+
+  
+
+
+
+@media only screen and (min-width: 1000px) {
+   
+
+body {
+    background: #161616;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  
+  .navMenu  {
+    position: absolute;
+    top: 5%;
+    left: 77%;
+  }
+  .logo{
+      position: fixed;
+      top: 5%;
+      left: 2%;
+      
+  }
+  
+  .navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+  }
+  
+  .navMenu a:hover {
+    color: #fddb3a;
+  }
+  
+  
+  .main-sec-img {
+      position: absolute;
+      padding-left: 40em;
+      
+  }
+  .main-p{
+      padding:15em 23em;
+      
+  
+  }
+  .main-p h1{
+      font-family: Montserrat ;
+      color: #fddb3a;
+      font-size: 2.5em;
+      font-weight: bold;
+  }
+  .main-p p{
+      font-size: 1.2em;
+      color: #f6f4e6;
+  }
+  
+  .sec-2{
+      background-color: #0000004e;
+      position: absolute;
+      
+      top: 90%;
+      left: 10%;
+      padding: 2em;
+      width: 75%;
+      
+  }
+ 
+ 
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 9px;
+    grid-row-gap: 2px;
+    }
+    
+    .image-1 { grid-area: 1 / 2 / 2 / 3; }
+    .image-2 { grid-area: 1 / 3 / 2 / 4; }
+    .image-3 { grid-area: 1 / 4 / 2 / 5; }
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 150px;
+    grid-row-gap: 5px;
+    padding-left: 2%;
+    }
+        
+    .logo-1 { 
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 1.5em;
+    }
+    .logo-2 { 
+        grid-area: 1.2 / 1/ 3 / 3; 
+        padding: 1.5em;
+    }
+    .logo-3 { 
+        grid-area: 1.1 / 1 / 3 / 3;
+        padding: 1.5em;
+    }
+
+    
+  .sec-3{
+      
+      position: absolute;
+      top: 85em;
+      left: 10%;
+      padding: 4em;
+
+  }
+
+ 
+
+  footer{
+      position: relative;
+      background-color: #000000c6;
+      padding: 5%;
+      color: #fddb3a;
+      top: 70em;
+      
+      
+      
+  }
+  
+  .nav-footer a{
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1%;
+    
+    
+    
+
+}
+.fa {
+  padding: 2px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #f6f4e6;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  
+  color: white;
+}
+.social-icon{
+  margin-left: 100em;
+}
+.credit{
+  margin-left: 50em;
+}
+}
+@media only screen and (max-width: 425px){
+    body {
+        background: #161616;
+        font-family: "Montserrat", sans-serif; 
+
+      }
+      
+      .navMenu  {
+        position: relative;
+        margin: 50px 10px 10px;
+        width: 100%;
+        
+      }
+      .logo{
+          position: absolute;
+          top: 0.5em;
+          left: 2%;
+        
+      }
+      
+      .logo img:hover {
+          color: #fddb3a;  
+      }
+      
+      .navMenu a {
+        color: #f6f4e6;
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 5px;
+      }
+      
+      .navMenu a:hover {
+        color: #fddb3a;
+      }
+      
+      
+      .main-sec-img {
+          display: none;
+          position: absolute;
+          padding-left: 40em;
+      }
+      .sec-2-img img{
+        width: 200px;
+        padding-left: 4.1em;
+      }
+      .main-p{
+          position: relative;
+          margin-top: 2em;
+          left: 15px;
+      
+      
+      }
+      .main-p h1{
+          font-family: Montserrat ;
+          color: #fddb3a;
+          font-size: 1.5em;
+          font-weight: bold;
+      }
+      .main-p p{
+          font-size: 1.2em;
+          color: #f6f4e6;
+          margin-bottom: 5em;
+      }
+
+      .sec-2-img{
+        width: 20px;
+    }
+      .featured img{
+        width: 300px;
+      }
+      .image-1 img{
+        width: 300px;
+        margin-left: 1.7em;
+        margin-bottom: 15px;
+      }
+      .image-2 img{
+        width: 300px;
+        margin-left: 1.7em;
+        margin-bottom: 15px;
+      }
+      .image-3 img{
+        width: 300px;
+        margin-left: 1.7em;
+        margin-bottom: 15px;
+      }
+      .image-4 img{
+        width: 300px;
+        margin-left: 2em;
+      }
+      .logo-1 img{
+        width: 200px;
+        margin-left: 4em;
+        margin-bottom: 15px;
+      }
+      .logo-2 img{
+        width: 200px;
+        margin-left: 4.2em;
+        margin-bottom: 15px;
+      }
+      .logo-3 img{
+        width: 200px;
+        margin-left: 4.2em;
+        margin-bottom: 5em;
+      }
+      
+      
+
+      footer{
+          background-color: #000000c6;
+          padding: 5%;
+          color: #fddb3a;
+          margin-top: 100;
+          width: 20em;
+          
+      }
+      
+      .nav-footer a{
+          color: #f6f4e6;
+          text-decoration: none;
+          font-size: 1em;
+          text-transform: uppercase;
+          font-weight: 700;
+          margin: 1%;
+          
+      
+      }
+      .fa {
+        padding: 2px;
+        font-size: large;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: #f6f4e6;
+      }
+      
+      
+      .fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        width: 100px;
+        
+        color: white;
+      }
+      .social-icon{
+        margin-left: 17em;
+      }
+
+
+}

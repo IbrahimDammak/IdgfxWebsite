@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader img {
+  width: 200px;
+}
+
+.preloader {
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+.preloader.hide {
+  
+  display: none;
+}
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #161616;
+        border-radius: 5px;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(62, 62, 62);
+        border-radius: 5px;
+      }
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background: #161616;
+        font-family: "Montserrat", sans-serif;
+        
+      
+        
+      }
+      
+      .navMenu  {
+        position: absolute;
+        top: 5%;
+        left: 77%;
+      }
+      .logo{
+          position: fixed;
+          top: 5%;
+          left: 2%;
+          
+      }
+      .logo img:hover {
+          color: #fddb3a;  
+      }
+      
+      .navMenu a {
+        color: #f6f4e6;
+        text-decoration: none;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 10px;
+      }
+      
+      .navMenu a:hover {
+        color: #fddb3a;
+      }
+    
+
+.about-p{
+    position: relative;
+    margin-top: 9em;
+    padding: 10px;
+}
+.about-bg{
+    position:absolute;
+    padding-left:42em;
+    width: 550px;
+    
+
+}
+
+.about-p img{
+    position: relative;
+    width: 400px;
+    padding-left: 47em;
+}
+.about-p h1{
+    font-family: "Montserrat", sans-serif;
+    color: #fddb3a;
+    font-weight: 30px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.about-p p{
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.footer{
+    background-color: #000000c6;
+    display: block;
+    padding: 5%;
+    color: #fddb3a;
+    margin-top: 10em;
+    
+}
+
+.nav-footer a{
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1%;
+    
+    
+    
+
+}
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #f6f4e6;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  
+  color: white;
+}
+.social-icon{
+  margin-left: 100em;
+}
+.credit{
+  margin-left: 50em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px){
+
+    body {
+        background: #161616;
+        font-family: "Montserrat", sans-serif;
+        
+      
+        
+      }
+      
+      .navMenu  {
+        position: relative;
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 100%;
+        
+      }
+      .logo{
+          position: relative;
+          top: 0.5%;
+          left: 2%;
+        
+      }
+      
+      .logo img:hover {
+          color: #fddb3a;  
+      }
+      
+      .navMenu a {
+        color: #f6f4e6;
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 5px;
+      }
+      
+      .navMenu a:hover {
+        color: #fddb3a;
+      }
+    .about{
+        color: rgba(0, 0, 0, 0.233);
+        
+    
+    }
+    .about-bg{
+        display: none;
+        position:absolute;
+        padding: 0em 42.5em  ;
+        width: 550px;
+    }
+    
+    
+    .about-p img{
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 55px;  
+    }
+    .about-p h1{
+        font-family: "Montserrat", sans-serif;
+        color: #fddb3a;
+        font-weight: 30px;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .about-p p{
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom: 10em;
+        padding: 0px;
+        text-align: center;
+    
+    }
+    .footer{
+          background-color: #000000c6;
+          padding: 5%;
+          color: #fddb3a;
+          margin-top: 100;
+          width: 100%;
+          
+      }
+      
+      .nav-footer a{
+          color: #f6f4e6;
+          text-decoration: none;
+          font-size: 1.2em;
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 1%;
+          
+      
+      }
+}

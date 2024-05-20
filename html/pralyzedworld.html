@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDGFX</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/stylePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script/preloader.js"></script>
+</head>
+<body>
+    <div class="preloader">
+        <img src="/img/websiteanimation.gif" alt="Loading..." />
+      </div>
+    
+
+    <header>
+        <img class="logo" src="/img/logo idgfx.png" alt="IDGFX">
+        <nav class="navMenu">
+            
+            <a href="/html/index.html">Home</a>
+            <a href="/html/form.html">Contact us</a>
+            <a href="/html/page1.html">Work</a>
+            <a href="/html/about.html">About</a>
+            
+          </nav>
+    </header>
+    <section>
+        <article class="article1">
+            <div>
+                <img src="/img//paralyzed world.png" alt="" width="300px">
+            </div>
+            <div>
+                <img src="/img/paralyzed worldMOCK.jpg" alt=""width="400px">
+            </div>
+        </article>
+        
+        
+        
+    </section>
+    <section>
+        <article class="artical2">
+            <p class="yellowtext">Design name : Paralyzed World</p>
+            <p class="yellowtext">Starting Bid : 100 DT</p>
+            <p class="yellowtext" id="winning-bid">Highest Bid : </p>
+   
+            <form action="submit_bid.php" method="post" >
+                <div class="BID">
+                <input type="number" min="200" name="amount" placeholder="Enter Your Bid" required>
+                </div>
+                <div class="name">
+                <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="tel">
+                <input type="number" name="phone" placeholder="Phone Number" required>
+                </div>
+                <input type="hidden" name="auction_id" value="1">
+                <button type="submit" name="submit">Submit</button>
+            </form>
+             
+        </article>
+    </section>
+
+    <footer >
+        <div class="nav-footer">
+            <a href="/html/index.html">Home</a>
+            <a href="/html/form.html">Contact us</a>
+            <a href="/html/page1.html">Work</a>
+            <a href="/html/about.html">About</a>
+           
+        </div> 
+            <div class="social-icon">
+                <a href="https://www.instagram.com/id_graphicxx/" target="_blank" class="fa fa-instagram"></a>
+            </div>
+        <div class="credit">
+            <p>Created by IDGFX</p>
+        </div>
+    </footer>
+    
+    
+    
+
+</body>
+</html>
